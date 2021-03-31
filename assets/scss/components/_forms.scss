@@ -1,0 +1,23 @@
+.registerForm, .loginForm {
+    text-align: center;
+    margin: 0 auto;
+    width: 50rem;
+}
+
+.loginForm {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.registerForm h2, .loginForm h2 {
+    font-size: 4rem;
+}
+
+form {
+    font-size: 3rem;
+}
+
+form input {
+    width: 30rem;
+    height: 3.5rem;
+}

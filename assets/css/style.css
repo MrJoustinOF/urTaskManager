@@ -10,9 +10,7 @@
 
 .navbar {
   background: #8d406d;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
+  text-align: center;
   width: 100%;
   position: fixed;
   left: 0;
@@ -21,7 +19,6 @@
 }
 
 .navbar h1 {
-  text-align: left;
   color: white;
   font-weight: 600;
   font-size: 3.5rem;
@@ -158,6 +155,30 @@ ul.show {
   --d: 100%;
 }
 
+.registerForm, .loginForm {
+  text-align: center;
+  margin: 0 auto;
+  width: 50rem;
+}
+
+.loginForm {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.registerForm h2, .loginForm h2 {
+  font-size: 4rem;
+}
+
+form {
+  font-size: 3rem;
+}
+
+form input {
+  width: 30rem;
+  height: 3.5rem;
+}
+
 footer {
   width: 100%;
   background: #8d406d;
@@ -168,7 +189,7 @@ footer {
 }
 
 .mainTips {
-  margin-top: 8rem;
+  margin-top: 15rem;
   text-align: center;
 }
 
@@ -195,6 +216,28 @@ footer {
 
 iframe {
   margin-top: 2rem;
+}
+
+.resultados {
+  padding: 5rem;
+}
+
+.bienvenida {
+  margin-top: 12rem;
+  font-size: 4rem;
+}
+
+.bienvenidaSecond {
+  font-size: 3rem;
+}
+
+.resultTitulo {
+  margin-top: 2rem;
+  font-size: 3rem;
+}
+
+.parrafosResults {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=style.css.map */
