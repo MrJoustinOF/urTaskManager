@@ -15,4 +15,10 @@
 @import "components/tips";
 
 //Dashboard
-@import 'components/dashboard'
+@import 'components/dashboard';
+
+//Responsive Design
+@import 'abstract/responsive280';
+@import 'abstract/responsive360';
+@import 'abstract/responsive768';
+@import 'abstract/responsive1280';

@@ -1,5 +1,5 @@
 <?php
-
+include 'includes/header.php';
 if (isset($_POST)) {
     require_once 'includes/db.php';
 
@@ -42,18 +42,20 @@ if (isset($_POST)) {
         $guardar = mysqli_query($db, $sql);
 
         if($guardar) {
-            echo "Registro completado con exito, vuelve a la pagina principal e inicia sesion!, <a href='index.php'>Haz click aqui</a>";
+            echo "<h2>Registro completado con exito, vuelve a la pagina principal e inicia sesion!, <a href='index.php'>Haz click aqui</a></h2>";
         } else {
-            echo "Fallo al guardar en la base de datos";
+            echo '<h2 class="errorRegister">Fallo al guardar en la base de datos</h2>';
         }
         
     } else {
         //Mostrar error
+        echo '<h2 class="errorRegister">';
         echo "Error al llenar el formulario, puede ser que tengas alguno de estos errores: "."<br>";
         echo "1.- El nombre no tiene que tener ningun numero" . "<br>";
         echo "2.- Introducir un email valido" . "<br>";
         echo "3.- La contraseña no puede estar vacia" . "<br>"; 
         echo "Volver a inicio, haz <a href='index.php'>click aqui</a>";
+        echo "</h2>";
     }
 }
     

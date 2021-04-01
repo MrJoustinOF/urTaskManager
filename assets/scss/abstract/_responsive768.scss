@@ -1,0 +1,51 @@
+@media (min-width: 768px) {
+    //Responsive Index
+
+    .hero {
+        padding: 18rem;
+        margin-top: 6.7rem;
+        text-align: center;
+        font-size: 10rem;
+    }
+
+    .info {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .info h2 {
+        font-size: 5rem;
+    }
+
+    .info p {
+        padding: 5rem;
+        font-size: 2rem;
+    }
+
+    .tipsi {
+        padding: 2rem;
+        text-align: center;
+        margin-bottom: 5rem;
+    }
+
+    .tipsi p {
+        padding: 2rem; 
+    }
+
+    .registerForm, .loginForm{
+        text-align: center;
+        margin: 50 auto;
+        width: 50rem;
+    }
+
+    .loginForm {
+        margin: {
+            bottom: 5rem;
+            top: 5rem;
+        }
+    }
+
+    footer {
+        font-size: 6rem;
+    } 
+}

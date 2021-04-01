@@ -1,0 +1,60 @@
+@media (min-width: 280px) {
+
+    //Responsive Index
+
+    .hero {
+        padding: 0;
+        margin-top: 12rem;
+        text-align: center;
+        font-size: 6rem;
+    }
+
+    .info {
+        padding: 0.5rem;
+    }
+
+    .info h2 {
+        font-size: 3rem;
+    }
+
+    .info p {
+        padding: 0;
+        font-size: 1.75rem;
+    }
+
+    .tipsi {
+        padding: 0;
+    }
+
+    .tipsi p {
+        padding: 0;
+    }
+
+    .registerForm, .loginForm{
+        text-align: unset;
+        padding: 0.5rem;
+    }
+
+    .loginForm {
+        margin: {
+            bottom: 5rem;
+            top: 5rem;
+        }
+    }
+
+    footer {
+        font-size: 5rem;
+    }
+
+
+    //Responsive Dashboard
+
+    .bienvenida {
+        font-size: 3rem;
+        padding: 0;
+    }
+
+    .seccionesResults, .agregarTarea {
+        margin: 1rem;
+    }
+}
