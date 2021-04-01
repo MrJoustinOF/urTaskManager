@@ -14,7 +14,6 @@
     <title>urTaskManager</title>
   </head>
   <body>
-    <div class="Top">
       <nav class="navbar">
         <a href="index.php"><h1>urTaskManager</h1></a>
         <!-- <ul class="itemsMenu"> -->

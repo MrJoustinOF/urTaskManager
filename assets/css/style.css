@@ -218,6 +218,12 @@ iframe {
   margin-top: 2rem;
 }
 
+.mensajeRegister {
+  font-size: 2rem;
+  margin-top: 12rem;
+  padding: 5rem;
+}
+
 .resultados {
   padding: 5rem;
 }

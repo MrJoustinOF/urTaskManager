@@ -1,5 +1,6 @@
 <?php include 'includes/header.php' ?>
-
+    
+    <div class="Top">
       <div class="hero">
         <h2>Administra tus tareas y aumenta tu productividad</h2>
       </div>
@@ -9,8 +10,7 @@
       <h2>¿urTaskManager?</h2>
       <p>
         Hola!, bienvenido a urTaskManager, te preguntaras como funciona, muy
-        simple!, solo registrate/inicia sesion, agrega tus tareas, y podras
-        administrarlas / marcarlas como completadas / por hacer / para una fecha
+        simple!, solo registrate/inicia sesion, agrega tus tareas, para una fecha
         en especifico y organizar tu tiempo para ser mucho mas productivo!
       </p>
     </section>
