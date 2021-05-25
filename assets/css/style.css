@@ -246,13 +246,47 @@ iframe {
   font-size: 2rem;
 }
 
-.seccionesResults, .agregarTarea {
+.seccionesResults {
   margin: 1rem;
   border: black solid 0.1rem;
   padding: 1rem;
 }
 
 .tituloAgregar {
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: white;
+  background: #8d406d;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+}
+
+.agregarTarea {
+  margin: 15rem 3rem 5rem 3rem;
+  border: black solid 0.1rem;
+  padding: 1rem;
+}
+
+.formTitle {
+  background: white;
+  font-size: 2.5rem;
+}
+
+.eliminar {
+  font-size: 2rem;
+  padding: 1rem;
+  background: #8d406d;
+  color: white;
+  border-radius: 1rem;
+}
+
+.editForm {
+  text-align: center;
+  margin: 15rem 2rem 2rem 2rem;
+  font-size: 3rem;
+}
+
+.editForm label {
   font-size: 3rem;
 }
 
@@ -285,7 +319,8 @@ iframe {
     padding: 0;
   }
 
-  .registerForm, .loginForm {
+  .registerForm,
+.loginForm {
     text-align: unset;
     padding: 0.5rem;
   }
@@ -304,7 +339,7 @@ iframe {
     padding: 0;
   }
 
-  .seccionesResults, .agregarTarea {
+  .seccionesResults {
     margin: 1rem;
   }
 }
@@ -641,7 +676,7 @@ iframe {
   }
 }
 @media (min-width: 1280px) {
-  .seccionesResults, .agregarTarea {
+  .seccionesResults {
     margin: 1rem;
     border: black solid 0.1rem;
     padding: 1rem;
@@ -649,6 +684,45 @@ iframe {
 }
 @media (min-width: 1280px) {
   .tituloAgregar {
+    font-size: 2.5rem;
+    text-decoration: none;
+    color: white;
+    background: #8d406d;
+    padding: 0.2rem;
+    border-radius: 0.5rem;
+  }
+}
+@media (min-width: 1280px) {
+  .agregarTarea {
+    margin: 15rem 3rem 5rem 3rem;
+    border: black solid 0.1rem;
+    padding: 1rem;
+  }
+}
+@media (min-width: 1280px) {
+  .formTitle {
+    background: white;
+    font-size: 2.5rem;
+  }
+}
+@media (min-width: 1280px) {
+  .eliminar {
+    font-size: 2rem;
+    padding: 1rem;
+    background: #8d406d;
+    color: white;
+    border-radius: 1rem;
+  }
+}
+@media (min-width: 1280px) {
+  .editForm {
+    text-align: center;
+    margin: 15rem 2rem 2rem 2rem;
+    font-size: 3rem;
+  }
+}
+@media (min-width: 1280px) {
+  .editForm label {
     font-size: 3rem;
   }
 }

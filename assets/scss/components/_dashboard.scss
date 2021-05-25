@@ -1,31 +1,65 @@
 .resultados {
-    padding: 5rem;
+  padding: 5rem;
 }
 
 .bienvenida {
-    margin-top: 12rem;
-    font-size: 4rem;
+  margin-top: 12rem;
+  font-size: 4rem;
 }
 
 .bienvenidaSecond {
-    font-size: 3rem;    
+  font-size: 3rem;
 }
 
 .resultTitulo {
-    margin-top: 2rem;
-    font-size: 3rem;
+  margin-top: 2rem;
+  font-size: 3rem;
 }
 
 .parrafosResults {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
-.seccionesResults, .agregarTarea {
-    margin: 1rem;
-    border: black solid 0.1rem;
-    padding: 1rem;
+.seccionesResults {
+  margin: 1rem;
+  border: black solid 0.1rem;
+  padding: 1rem;
 }
 
 .tituloAgregar {
-    font-size: 3rem;
+  font-size: 2.5rem;
+  text-decoration: none;
+  color: white;
+  background: $purple;
+  padding: 0.2rem;
+  border-radius: 0.5rem;
+}
+
+.agregarTarea {
+  margin: 15rem 3rem 5rem 3rem;
+  border: black solid 0.1rem;
+  padding: 1rem;
+}
+
+.formTitle {
+  background: white;
+  font-size: 2.5rem;
+}
+
+.eliminar {
+  font-size: 2rem;
+  padding: 1rem;
+  background: $purple;
+  color: white;
+  border-radius: 1rem;
+}
+
+.editForm {
+  text-align: center;
+  margin: 15rem 2rem 2rem 2rem;
+  font-size: 3rem;
+}
+
+.editForm label {
+  font-size: 3rem;
 }
